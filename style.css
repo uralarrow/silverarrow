@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+header {
+    background-color: black;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex; 
+    align-items: center;  
+    justify-content: space-around;
+    height: 83px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    padding-top: 3px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 71px;
+}
+
+.logo:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span {
+    color: white;
+    text-transform: uppercase;
+}
+
+span:hover {
+    color: #E3B873;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.punkt {
+    list-style: none;
+    display: flex; 
+    margin-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 27px;    
+}
+
+a:hover{
+    color: #E3B873;
+}
+
+button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.button1 {
+    margin-right: 68px;
+    padding: 10px 33px;
+    color: white;
+}
+
+.number {
+    margin-left: 28px;
+}
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.kvartira {
+    background-image: url(./images/kvartira.jpg);
+    background-size: cover;
+    height: 707px;
+}
+
+.container1 {
+    display: flex;
+    padding-top: 188px;
+    padding-left: 135px;
+    padding-bottom: 157px;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+.rostov {
+    margin: 0px;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+p, br {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.text {
+    max-width: 520px;
+    margin-top: 18px;
+}
+
+.ros {
+    color: #E3B873;
+}
+
+.ros:hover {
+    text-decoration: none;
+    cursor: default;
+}
+.button2 {
+    width: 207px;
+    padding: 20px 22px 16px 22px;
+    margin-top: 1px;
+}
+
+.button3 {
+    width: 207px;
+    padding: 19px 23px 16px 22px;
+    position: relative;
+    left: 228px;
+    bottom: 54px;
+    background-color: transparent; 
+    border: 1px solid #FFFFFF;  
+}
