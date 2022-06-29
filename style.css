@@ -155,7 +155,6 @@ p, br {
 .kvartira2 {
     background-color: #131313;
     height: 1074px;
-    
 }
 h2 {
     color: #E3B873;
@@ -242,13 +241,9 @@ main {
     margin-top: 30px;
 }
 
-.city {
-    width: 100px;
-    
-}
 
 .apartmentarea {
-    margin-left: 91px;
+    margin-left: 100px;
     
 }
 
@@ -382,6 +377,13 @@ main {
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
   }
+  .NP {
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
   .Submit {
     padding: 14px 74px 8px 74px;
     margin-top: 62px;
@@ -749,9 +751,10 @@ margin-left: 5px;
     height: 445px;
     width: 883px;
     background-color: #181818;
-    position: relative;
-    left: 489px;
-    bottom: 314px;
+    flex-direction: column;
+    margin-top: -315px;
+    margin-left: 489px;
+    z-index: 1;
 }
 .input5 {
     display: flex;
@@ -767,7 +770,7 @@ margin-left: 5px;
     width: 232px;
 }
 .hulk3::placeholder {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .hulk3 {
     background-color: #181818;
@@ -781,6 +784,7 @@ color: #FFFFFF;
     flex-direction: column;
     align-items: center;
 }
+
 .input4 {
     display: flex;
     flex-direction: column-reverse;
@@ -794,6 +798,7 @@ color: #FFFFFF;
     line-height: 23px;
     width: 231px;
 }
+
 .input6 {
     display: flex;
     flex-direction: column-reverse;
@@ -807,12 +812,14 @@ color: #FFFFFF;
     width: 517px;
 
 }
+
 .have {
     margin-top: 32px;
     font-size: 20px;
     line-height: 28px;
     color: white;
 }
+
 .first-checkbox2 {
     margin-top: 122px;
     margin-left: 1px;
@@ -829,7 +836,7 @@ color: #FFFFFF;
 .spider {
     background-image: url(./images/домпоследний.png);
     Height: 954px;
-    margin-top: -538px;
+    margin-top: -223px;
     display: flex;
     justify-content: center;
     background-color: black
@@ -849,18 +856,22 @@ color: #FFFFFF;
     align-items: center;
 
 }
+
 .dvaznaka {
     display: flex;
     width: 80px;
 }
+
 .znakpochta {
 margin-right: 15px;
     margin-left: 2px;
 }
+
 .karta {
     margin-top: 36px;
     margin-right: 4px;
 }
+
 footer {
     background-color: black;
     margin: 0 auto;
@@ -876,3 +887,562 @@ footer {
     padding-top: 28px;
     padding-bottom: 22px;
 }
+
+.text br:nth-of-type(2) {
+    display: none;
+}
+
+.text br:nth-of-type(3) {
+    display: none;
+}
+
+.mobilefoto {
+    display: none;
+    background-size: cover;
+}
+
+.P {
+    display: none;
+}
+
+.nansen br {
+    display: none;
+}
+
+.strelkimob1 {
+    display: none;
+}
+.kaktak {
+    display:flex;
+}
+
+
+@media (max-width: 1300px) {
+    nav {
+        display: none;
+    }
+
+    .button1 {
+        display: none;
+    }
+
+    body {
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin-left: 1px;
+        text-transform: uppercase;
+    }
+
+    .number {
+        margin-left: 50px;
+    }
+
+    header {
+        height: 54px;
+    }
+
+    h1 {
+        font-size: 23px;
+        line-height: 30.55px;
+    }
+
+    p, br {
+        font-size: 14px;
+        line-height: 19.02px;
+    }
+
+    .container1 {
+        padding: 83px 0px 293px 0px;
+        align-items: center;
+    }
+
+    .text {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .rostov {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .text br:nth-of-type(2) {
+        display: initial;
+    }
+
+    .button2 {
+        width: 91%;
+        margin-top: 33px;
+    }  
+
+    .button3 {
+        position: static;
+        width: 91%;
+        margin-top: 24px;
+    }
+
+    .app {
+        display: none;
+    }
+
+    .kvartira {
+        height: 476px;
+    }
+
+    .batman {
+        display: none;
+    }
+
+    .strelki {
+        display: none;
+    }
+
+    .mobilefoto {
+        display: initial;
+        margin-top: 71px;
+    }
+
+    .container2 {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .only {
+        font-size: 11px;
+        line-height: 17px;
+        text-align: center;
+        margin: auto;
+        width: 311px;
+        margin-top: 11px;
+    }
+
+    .only br {
+        display: none;
+    }
+
+    .stecst {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .opra {
+        font-size: 11px;
+        line-height:  15px;
+    }
+
+    .camera {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 59px;
+    }
+    
+    .for {
+        width: auto;
+        justify-content: center;
+        margin-top: 118px;
+    }
+
+    .city {
+        margin-left: 18px;
+    }
+
+    .apartmentarea {
+        margin-right: 64px;
+        margin-left: auto;
+    }
+
+    .repairtime {
+        margin-left: 18px;
+        margin-right: auto;
+        margin-top: 13px;
+    }
+
+    .repaircost {
+        margin-left: auto;
+        margin-right: 102px;
+        margin-top: 13px;
+    }
+
+    .Camera {
+        margin: auto;
+        margin-top: -5px;
+    }
+
+    .strelkimob {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -146px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    .potolok {
+        background-size: cover;
+        width: 340px;
+        height: 207px;
+    }
+
+    .fon {
+        height: 207px;
+        width: 340px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .krug {
+        padding: 14px;
+        border-radius: 52px;
+        margin: auto;
+    }
+
+    .treu {
+        width: 0px;
+        height: 0px;
+        border-top: 4px solid transparent;
+        border-left: 8px solid white;
+        border-bottom: 5px solid transparent;
+        margin-left: 2px;
+    }
+
+    .kvartira2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .superman {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #131313;
+        height: 479px;
+    }
+
+    .rte {
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    margin-top: 13px;
+    }
+
+    .hr1 {
+        margin-top: 24px;
+    }
+
+    .N {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .hulk {
+        color: white;
+        background-color: #131313;
+        margin-bottom: -2px;
+    }
+
+    .hulk::placeholder {
+        color: #FFFFFF;
+    }
+
+    .input {
+        margin: auto;
+        width: 100%;
+        margin-top: 62px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .P {
+        display: initial;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .NP {
+        display: none;
+    }
+
+    .first-checkbox {
+        margin-top: -242px;
+        margin-left: -47px;
+    }
+
+    .textt  {
+        color: white;
+    }
+
+    .Submit {
+        width: 100%;
+        margin-top: 104px;
+    }
+
+    .container4 {
+        margin-top: 59px;
+    }
+
+    .typ {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .redec1, .over1, .desig1 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .trivrad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 33px;
+    }
+
+    .trivrad2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -1228px;
+    }
+
+    .trivrad3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kiborg {
+        display: none;
+    }
+
+    .darkside {
+        display: none;
+    }
+
+    .nav, .r2, .r3, .r4, .r5 {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .trivrad img {
+        background-size: cover;
+        width: 340px;
+        height: 365px;
+    }
+
+    .trivrad img:nth-child(2) {
+        margin-top: 178px;
+        margin-bottom: 178px;
+    }
+
+    .over {
+        margin-top: 302px;
+        margin-bottom: 302px;
+    }
+
+    .redec, .over, .desig {
+        margin-left: -71px;
+        height: 241px;
+        width: 270px;
+    }
+
+    .trivrad3 {
+        margin-top: -1107px;
+    }
+
+    .pram {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 25px;
+        padding: 11px 19px;
+        margin-left: -54px;
+    }
+
+    .trivrad3 .pram:nth-child(2) {
+        margin-top: 476px;
+        padding: 9px 16px;
+        margin-left: -56px;
+        margin-bottom: 503px;
+    }
+
+    .trivrad3 .pram:nth-child(3) {
+        padding: 10px 16px;
+    }
+
+    .apokalipsis {
+        margin-top: 997px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 242px;
+        width: 341px;
+
+    }
+
+    .back {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:none;
+    }
+
+    .realize {
+        margin-top: -238px;
+        font-size: 22px;
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .spider {
+        background-image:none;
+        Height: 954px;
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .blackinput3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-top: -121px;
+        z-index: -1;
+        background-color: black;
+        margin-left: 40px;
+        margin-left: 0px;
+    }
+
+    .hulk3 {
+        background-color: black;
+    }
+
+    .kaktak {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pechen {
+        margin-top: 139px;
+    }
+
+    .pechen1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 117%;
+    }
+
+    .input4, .input5, .input6 {
+        position: static;
+        width: 100%;
+    }
+
+    .have {
+        margin-bottom: 49px;
+    }
+
+    .dorabotka {
+        width: 117%;
+    }
+
+    .input5 {
+        margin-top: 68px;
+        margin-bottom: 61px;
+    }
+
+    .first-checkbox2 {
+        margin-top: 22px;
+        position: relative;
+        right: 25px;
+    }
+
+    .Submit2 {
+        margin-top: 62px;
+        width: 117%;
+        margin-left: 5px;
+    }
+    .spider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 524px;
+    }
+
+    .karta img {
+        width: 340px;
+        height: 256px;
+    }
+
+    .decorum {
+        margin-top: 130px;
+    }
+
+    .karta {
+        margin-top: -438px;
+    }
+
+    .nansen {
+        font-size: 18px;
+        line-height: 25px;
+        width: auto;
+        margin-top: 14px;
+    }
+
+    .nansen br {
+        display: initial;
+    }
+
+    .znakpochta img {
+        width: 39px;
+        height: 39px;
+    }
+
+    .instagam img {
+        width: 39px;
+        height: 39px;
+    }
+
+    .znakpochta {
+        margin-right: 20px;
+    }
+
+    .dvaznaka {
+        width: auto;
+        margin-top: 4px;
+    }
+
+    .strelkimob1 {
+        display: flex;
+        width: 314px;
+        justify-content: space-between;
+        margin-top: 103px;
+    }
+
+    }
