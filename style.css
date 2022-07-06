@@ -204,15 +204,15 @@ ul {
     border-bottom: 1px solid #E3B873;
 
 }
-.ura {
+.stulia {
     margin-top: 37px;
 }
 
-.batman {
+.proekti {
     display: flex;
     flex-wrap: wrap;
 }
-.woomen {
+.proekti-navigation {
     margin-left: -65px;
     width: 693px;
 }
@@ -231,8 +231,11 @@ main {
     font-size: 13px;
     line-height: 21px;
 }
-.stecst {
-    margin-top: 59px;
+.Completedprojects {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .for {
     display: flex;
@@ -277,14 +280,14 @@ main {
     margin-top: -7px;
     margin-left: 6px;
 }
-.samera {
+.img-camera {
     margin-left: 8px;
     margin-right: 8px;
 }
-.sameral {
+.img-polosa {
     margin-top: -12px;
 }
-.superman {
+.video {
     height: 779px;
 }
 .container3 {
@@ -327,7 +330,7 @@ main {
     border-radius: 30px;
     border: transparent;
 }
-.rte {
+.video-text {
     color: black;
     font-size: 18px;
     line-height: 37px;
@@ -405,14 +408,14 @@ input {
 .input {
     display: flex;
     flex-direction: column-reverse;
-    border-bottom: 1px solid #E3B873;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     margin-top: 49px;
     margin-left: 4px;
     margin-right: 13px;
     margin-bottom: -4px;
     padding-bottom: 3px;
 }
-.hulk{
+.forminput{
     width: 227px;
     font-family: 'Nunito Sans';
     font-size: 14px;
@@ -421,7 +424,7 @@ input {
 .loki{
     margin-left: 9px;
 }
-.joker {
+.repair {
     height: 853px;
 }
 .container4 {
@@ -476,7 +479,7 @@ input {
     margin-top: -17px;
 
 }
-.pram {
+.prices {
     padding: 15px 22px;
     background-color: #E3B873;
     font-family: 'Yeseva One';
@@ -502,12 +505,12 @@ h4 {
     margin-left: -94px;
     margin-top: -27px;
 }
-.kiborg {
+.forpunkta {
     height: 966px;
     display: flex;
     justify-content: space-between;
 }
-.drom {
+.forpunkta_krugi {
     background-image: url(./images/zaddom.png);
     Width:702px;
     Height:645px;
@@ -560,7 +563,7 @@ h4 {
 .N1 {
     color: rgba(255, 255, 255, 0.5);
 }
-.hulk1 {
+.forminput1 {
     width: 227px;
     font-family: 'Nunito Sans';
     font-size: 14px;
@@ -568,7 +571,7 @@ h4 {
     background-color: #131313;
     color: #FFFFFF;
 }
-.hulk1::placeholder {
+.forminput1::placeholder {
     color: #FFFFFF;
  
 }
@@ -583,6 +586,10 @@ h4 {
     box-sizing: border-box;
     margin-top: -16px;
     
+}
+
+.blackinput2 .input {
+    border-bottom: 1px solid #FFFFFF15;
 }
 .call {
     padding: 17px 38px 13px;
@@ -616,7 +623,7 @@ margin-left: 5px;
     margin-left: 12px;
     margin-top: 28px;
 }
-.apokalipsis {
+.vertikalnavigation {
     background-image: url(./images/r1.png);
     Height: 864px;
 }
@@ -672,7 +679,7 @@ margin-left: 5px;
     right: 119px;
     top: 200px;
 }
-.darkside {
+.ourclients {
     height: 1108px;
 }
 .goroda2 {
@@ -714,7 +721,7 @@ margin-left: 5px;
     margin-left: 22px;
     margin-top: 15px;
 }
-.faf {
+.ourclients_text {
     font-size: 18px;
     line-height: 29px;
     color: #363636;
@@ -753,13 +760,13 @@ margin-left: 5px;
     background-color: #181818;
     flex-direction: column;
     margin-top: -315px;
-    margin-left: 489px;
     z-index: 1;
+    margin-left: 21px;
 }
 .input5 {
     display: flex;
     flex-direction: column-reverse;
-    border-bottom: 1px solid #E3B873;
+    border-bottom: 1px solid #FFFFFF15;
     margin-bottom: -6px;
     padding-bottom: 6px;
     position: relative;
@@ -769,17 +776,17 @@ margin-left: 5px;
     line-height: 23px;
     width: 232px;
 }
-.hulk3::placeholder {
+.forminput2::placeholder {
     color: #FFFFFF;
 }
-.hulk3 {
+.forminput2 {
     background-color: #181818;
     color: white;
 }
-.pechen1 {
+.question_input1 {
     display: flex;
 }
-.pechen {
+.question_input {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -788,7 +795,7 @@ margin-left: 5px;
 .input4 {
     display: flex;
     flex-direction: column-reverse;
-    border-bottom: 1px solid #E3B873;
+    border-bottom: 1px solid #FFFFFF15;
     margin-bottom: -6px;
     padding-bottom: 6px;
     position: relative;
@@ -802,7 +809,7 @@ margin-left: 5px;
 .input6 {
     display: flex;
     flex-direction: column-reverse;
-    border-bottom: 1px solid #E3B873;
+    border-bottom: 1px solid #FFFFFF15;
     padding-bottom: 5px;
     position: relative;
     right: 3px;
@@ -833,7 +840,7 @@ margin-left: 5px;
     font-style: normal;
     margin-right: 3px;
 }
-.spider {
+.contact {
     background-image: url(./images/домпоследний.png);
     Height: 954px;
     margin-top: -223px;
@@ -912,8 +919,10 @@ footer {
 .strelkimob1 {
     display: none;
 }
-.kaktak {
-    display:flex;
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -991,7 +1000,7 @@ footer {
         height: 476px;
     }
 
-    .batman {
+    .proekti {
         display: none;
     }
 
@@ -1042,7 +1051,7 @@ footer {
         line-height: 19px;
     }
 
-    .opra {
+    .for-text {
         font-size: 11px;
         line-height:  15px;
     }
@@ -1128,7 +1137,7 @@ footer {
         align-items: center;
     }
 
-    .superman {
+    .video {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1136,7 +1145,7 @@ footer {
         height: 479px;
     }
 
-    .rte {
+    .video-text {
     font-size: 11px;
     line-height: 19px;
     text-align: center;
@@ -1152,13 +1161,13 @@ footer {
         color: rgba(255, 255, 255, 0.5);
     }
     
-    .hulk {
+    .forminput {
         color: white;
         background-color: #131313;
         margin-bottom: -2px;
     }
 
-    .hulk::placeholder {
+    .forminput::placeholder {
         color: #FFFFFF;
     }
 
@@ -1216,6 +1225,7 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-top: 33px;
+        width: auto;
     }
 
     .trivrad2 {
@@ -1223,19 +1233,21 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-top: -1228px;
+        width: auto;
     }
 
     .trivrad3 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: auto;
     }
 
-    .kiborg {
+    .forpunkta {
         display: none;
     }
 
-    .darkside {
+    .ourclients {
         display: none;
     }
 
@@ -1273,7 +1285,7 @@ footer {
         margin-top: -1107px;
     }
 
-    .pram {
+    .prices {
         font-size: 15px;
         line-height: 21px;
         margin-bottom: 25px;
@@ -1281,18 +1293,18 @@ footer {
         margin-left: -54px;
     }
 
-    .trivrad3 .pram:nth-child(2) {
+    .trivrad3 .prices:nth-child(2) {
         margin-top: 476px;
         padding: 9px 16px;
         margin-left: -56px;
         margin-bottom: 503px;
     }
 
-    .trivrad3 .pram:nth-child(3) {
+    .trivrad3 .prices:nth-child(3) {
         padding: 10px 16px;
     }
 
-    .apokalipsis {
+    .vertikalnavigation {
         margin-top: 997px;
         background-size: cover;
         display: flex;
@@ -1308,6 +1320,7 @@ footer {
         flex-direction: column;
         align-items: center;
         background:none;
+        width: auto;
     }
 
     .realize {
@@ -1317,7 +1330,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    .spider {
+    .contact {
         background-image:none;
         Height: 954px;
         margin-top: auto;
@@ -1331,28 +1344,27 @@ footer {
         align-items: center;
         flex-direction: column;
         height: auto;
-        width: auto;
         margin-top: -121px;
         z-index: -1;
         background-color: black;
-        margin-left: 40px;
-        margin-left: 0px;
+        width: 100%;
+        margin-left: auto;
     }
 
-    .hulk3 {
+    .forminput2 {
         background-color: black;
     }
 
-    .kaktak {
+    .question {
         display: flex;
         flex-direction: column;
     }
 
-    .pechen {
+    .question_input {
         margin-top: 139px;
     }
 
-    .pechen1 {
+    .question_input1 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1388,7 +1400,7 @@ footer {
         width: 117%;
         margin-left: 5px;
     }
-    .spider {
+    .contact {
         display: flex;
         flex-direction: column;
         align-items: center;
