@@ -4,7 +4,6 @@
             if (num[i]%2 === 0) {console.log ("это четное число");}
             else if(num[i]%2 !== 0) {console.log("Это нечетное число");}}
     else {console.log ("это не число")}}
-
     for (let i = 0; i < num.length; i++) {
         if (num[i] === 0) {
             console.log (`элемент ${i+1} Это ноль`);}
