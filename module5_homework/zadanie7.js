@@ -6,5 +6,5 @@
     else {console.log ("это не число")}}
     for (let i = 0; i < num.length; i++) {
         if (num[i] === 0) {
-            console.log (`элемент ${i+1} Это ноль`);}
+            console.log (`элемент ${i} Это ноль`);}
         }
